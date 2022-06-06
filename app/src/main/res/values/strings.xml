@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PocketBusiness</string>
+
+    <string-array name="quantity">
+        <item>gm</item>
+        <item>kg</item>
+    </string-array>
+</resources>

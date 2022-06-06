@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1839">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/finalItemName_billGenList"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="a"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/finalQuantity_billGenList"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="a"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/finalUnit_billGenList"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="a"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/finalItemPrice_billGenList"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="a"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1839"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <TextView
+        android:id="@+id/productName_billEditLayout"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="placeHolder"
+        android:textAlignment="center"
+        android:textColor="#FCFCFC" />
+
+    <EditText
+        android:id="@+id/productQuantity_billEditLayout"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Enter quantity"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5E5E5E" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/unit_billEditLayout"
+        android:layout_width="134dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/addButton_billingEditLayout"
+        android:layout_width="193dp"
+        android:layout_height="59dp"
+        android:layout_weight="1"
+        android:onClick="onAddBillItem"
+        android:text="Ok"
+        android:textAlignment="center" />
+</LinearLayout>

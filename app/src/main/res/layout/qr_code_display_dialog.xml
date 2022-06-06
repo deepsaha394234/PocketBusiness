@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="399dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/qrImage_qrCodeDisplayDialog"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="360dp"
+            android:adjustViewBounds="true"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</RelativeLayout>
